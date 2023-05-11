@@ -34,7 +34,7 @@ public class MainController {
         calcButton.setOnAction( e -> onClickCalcButton() );
     }
 
-    private void onClickCalcButton(){
+    public void onClickCalcButton(){
         double sideA = -1;
         double sideB = -1;
         double sideC = -1;
