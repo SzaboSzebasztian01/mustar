@@ -1,5 +1,5 @@
 /*
- * File:TestInput.java
+ * File:CalcTest.java
  * Author:Szabó Szebasztián
  * Copyright:2023, Szebi:)
  * Group:SZOFT-I-1-N

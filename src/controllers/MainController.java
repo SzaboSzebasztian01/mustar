@@ -35,16 +35,40 @@ public class MainController {
     }
 
     private void onClickCalcButton(){
+        double sideA = -1;
+        double sideB = -1;
+        double sideC = -1;
+
         String sideAStr = this.mainPanel.getsideA().getValue();
+        if (inputCheck(sideAStr)) {
+            sideA = Double.parseDouble(sideAStr);
+    
+            }
+
         String sideBStr = this.mainPanel.getsideB().getValue();
+
+        if (inputCheck(sideBStr)) {
+            sideB = Double.parseDouble(sideBStr);
+    
+            }
+
         String sideCStr = this.mainPanel.getsideC().getValue();
-        double sideA = Double.parseDouble(sideAStr);
-        double sideB = Double.parseDouble(sideBStr);
-        double sideC = Double.parseDouble(sideCStr);
+
+        if (inputCheck(sideCStr)) {
+            sideC = Double.parseDouble(sideCStr);
+
+        }
+
         Double volume = mainModel.calcVolume(sideA, sideB, sideC);
         String volumeStr = volume.toString();
         
         this.mainPanel.getVolumePanel().setValue(volumeStr);
+
+    }
+
+    public boolean inputCheck(String input) {
+
+        return input.matches("[0-9.,]+")?true:false;
     }
     
 }
