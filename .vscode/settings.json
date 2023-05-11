@@ -1,5 +1,5 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": ["src", "test"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
@@ -10,7 +10,6 @@
         "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\javafx-sdk-17.0.6\\lib\\javafx.media.jar",
         "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\javafx-sdk-17.0.6\\lib\\javafx.swing.jar",
         "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\javafx-sdk-17.0.6\\lib\\javafx.web.jar",
-        "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\javafx-sdk-17.0.6\\lib\\javafx-swt.jar",
-        "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\junit\\junit-jupiter-api-5.9.2.jar"
+        "c:\\Users\\diak\\Desktop\\SzSz.JavaS\\Library\\javafx-sdk-17.0.6\\lib\\javafx-swt.jar"
     ]
 }
